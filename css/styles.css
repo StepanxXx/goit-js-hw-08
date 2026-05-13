@@ -46,6 +46,7 @@ img {
   grid-template-columns: repeat(auto-fit, var(--item-width));
   grid-auto-rows: var(--item-hight);
   gap: 24px;
+  justify-content: center;
 }
 
 .gallery-image {
