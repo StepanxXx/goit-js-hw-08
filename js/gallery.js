@@ -76,6 +76,7 @@ galleryContainer.addEventListener('click', onGalleryContainerClick);
 
 function onGalleryContainerClick(event) {
   event.preventDefault();
+  event.stopPropagation();
 
   const isGalleryImage = event.target.classList.contains('gallery-image');
   if (!isGalleryImage) {
